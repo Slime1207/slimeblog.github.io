@@ -5,5 +5,5 @@
 # 原作者聲明
 本網站使用 saicaca/fuwari 模板創建網站，并且更改内部文件來成爲此網站的内容。未經允許請勿轉載或者抄走本網站的博客帖子内容。
 ::github{repo="saicaca/fuwari"}  
-::github{repo="slime1207//slimeblog.github.io"}  
+::github{repo="slime1207/slimeblog.github.io"}  
 
