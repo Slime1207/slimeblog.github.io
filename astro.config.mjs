@@ -31,7 +31,8 @@ const oklchToHex = (str) => {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://slime.yamoto.xyz",
+  site: "https://slime.yamoto.xyz/",
+  base: "/",
   trailingSlash: "always",
   integrations: [
     tailwind(),
