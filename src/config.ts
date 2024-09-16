@@ -7,15 +7,15 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
-  lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
+  title: '史萊姆',
+  subtitle: '關於word的小空間',
+  lang: 'zh_TW',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
     hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
     fixed: false,     // Hide the theme color picker for visitors
   },
   banner: {
-    enable: false,
+    enable: true,
     src: 'assets/images/demo-banner.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
@@ -39,8 +39,8 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Archive,
     LinkPreset.About,
     {
-      name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
+      name: 'Youtube 油管',
+      url: 'https://youtube.com/channel/UCJYsxslo0c4Enj1A0tveNdw?si=rTSMgdUj4x_9fCHL',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
   ],
@@ -48,25 +48,25 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  name: '史萊姆 Slime Ch.',
+  bio: '一個肥宅，住在一個小小的馬來西亞裏，曾經參與過 2 場次的 Nijigen Expo (MIECC & Stadium Bukit Jalil)',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
+      name: 'Youtube',
+      icon: 'fa6-brands:youtube',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
+      url: 'https://youtube.com/channel/UCJYsxslo0c4Enj1A0tveNdw?si=rTSMgdUj4x_9fCHL',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'Twitter',
+      icon: 'fa6-brands:twitter',
+      url: 'https://twitter.com/slime_1207',
     },
     {
-      name: 'GitHub',
-      icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      name: 'Facebook',
+      icon: 'fa6-brands:facebook',
+      url: 'https://facebook.com/史萊姆王SlimeKing',
     },
   ],
 }
